@@ -17,6 +17,17 @@ namespace Inheritance
     {
         static void Main(string[] args)
         {
+            Dog objDog = new Dog();
+            objDog.Bark();
+            objDog.Eat();
+
+            Console.WriteLine("//////////////////////////");
+
+            Cat objCat = new Cat();
+            objCat.Meow();
+            objCat.Eat();
+
+            Console.ReadLine();
         }
     }
 }
